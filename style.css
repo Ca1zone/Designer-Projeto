@@ -8,9 +8,9 @@ body {
 }
 
 :root {
-    --maincolor: #ffdddb;
+    --maincolor: #fff3f2;
     --secondcolor: #130707;
-    --thircolor: #fff;
+    --thircolor: hsl(283, 82%, 39%);
 }
 
 header {
