@@ -62,6 +62,14 @@ body {
     text-align: center;
 }
 
+.icon-hover {
+color: rgb(255, 255, 255);
+}
+
+.icon-hover:hover {
+    color: #7a0092;
+}
+
 footer {
     background-color: var(--thircolor);
     padding: 50px 0;
@@ -70,4 +78,8 @@ footer {
     box-shadow: 0 0 30px var(--thircolor);
     font-family: "Playfair Display", serif;
     font-size: 20px;
+}
+
+.form {
+    background-color: rgb(238, 202, 255);
 }

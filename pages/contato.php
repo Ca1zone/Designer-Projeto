@@ -10,11 +10,14 @@
     <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=b4cJrVjh"></script>
 </head>
 
-<body>
+<body class="form">
     <?php
     include 'nav.php'
     ?>
     <main>
+
+    <br>
+    <br>
         <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1">@</span>
             <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
@@ -51,6 +54,11 @@
             <textarea class="form-control" aria-label="With textarea"></textarea>
         </div>
     </main>
+    <?php
+    include 'footer.php';
+    ?>
+
+    
 </body>
 
 </html>
