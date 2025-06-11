@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="style.css">
     <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=b4cJrVjh"></script>
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-</style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 
 <body>
@@ -26,6 +26,11 @@
 
     </main>
 
+
+    <section class="slogan">
+        <img src="../img/slogan1.png">
+    </section>
+
     <section class="container">
         <button class="consulta">
             Agendar Consulta
@@ -33,10 +38,7 @@
     </section>
 
     <section class="sobreall">
-        <div class="tltsobre">
-            <img src="../img/sobretlt.png">
-        </div>
-        <section class="sobre">
+        <div class="sobre">
             <div>
                 <img src="../img/img1.png">
             </div>
@@ -46,8 +48,56 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro, fuga beatae impedit perspiciatis voluptatibus labore architecto dignissimos possimus, dolorum, quo voluptatem incidunt nemo quae officiis illo dicta voluptates ab.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro, fuga beatae impedit perspiciatis voluptatibus labore architecto dignissimos possimus, dolorum, quo voluptatem incidunt nemo quae officiis illo dicta voluptates ab.
             </div>
-        </section>
+        </div>
     </section>
+
+    <section class="slogan">
+        <img src="../img/slogan.png">
+    </section>
+
+    <section class="ex">
+        <div class="ex1">
+            <div class="und">
+                <img src="../img/img1.png">
+                <p>Antes</p>
+            </div>
+            <div class="und">
+                <img src="../img/img1.png">
+                <p>Depois</p>
+            </div>
+            <div class="und">
+                <img src="../img/img1.png">
+                <p>Antes</p>
+            </div>
+            <div class="und">
+                <img src="../img/img1.png">
+                <p>Depois</p>
+            </div>
+
+        </div>
+        <div class="ex1">
+            <div class="und">
+                <img src="../img/img1.png">
+                <p>Antes</p>
+            </div>
+            <div class="und">
+                <img src="../img/img1.png">
+                <p>Depois</p>
+            </div>
+            <div class="und">
+                <img src="../img/img1.png">
+                <p>Antes</p>
+            </div>
+            <div class="und">
+                <img src="../img/img1.png">
+                <p>Depois</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
     <?php
     include 'footer.php';
     ?>

@@ -37,24 +37,17 @@ body {
     justify-content: center;
 
     .sobre {
-        padding-top: 100px;
+        padding-top: 50px;
         display: flex;
         width: 100%;
         padding-left: 100px;
         padding-right: 100px;
         font-family: "Playfair Display", serif;
-        padding-bottom: 100px;
+        padding-bottom: 20px;
+
         img {
             width: 50%;
         }
-    }
-}
-
-.tltsobre {
-    text-align: center;
-
-    img {
-        width: 30%;
     }
 }
 
@@ -63,7 +56,7 @@ body {
 }
 
 .icon-hover {
-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .icon-hover:hover {
@@ -82,4 +75,36 @@ footer {
 
 .form {
     background-color: rgb(238, 202, 255);
+}
+
+
+
+.ex {
+
+    padding: 60px 20px 20px 20px;
+
+    .ex1 {
+        display: flex;
+        background-color: rgb(250, 212, 255);
+        border-radius: 20px;
+
+        .und {
+            text-align: center;
+            padding: 20px;
+
+            img {
+                width: 50%;
+
+
+            }
+        }
+    }
+}
+
+.slogan {
+    padding-top: 70px;
+    text-align: center;
+    img {
+        width: 90%;
+    }
 }
