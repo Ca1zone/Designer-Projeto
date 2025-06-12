@@ -14,18 +14,24 @@
     <?php
     include 'nav.php'
     ?>
-    <main>
+    <main class="forml">
 
     <br>
     <br>
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">@</span>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" id="nome" placeholder="Nome" aria-label="Username" aria-describedby="basic-addon1">
         </div>
 
         <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Recipient’s username" aria-label="Recipient’s username" aria-describedby="basic-addon2">
-            <span class="input-group-text" id="basic-addon2">@example.com</span>
+            <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome" aria-label="Recipient’s username" aria-describedby="basic-addon2">
+        </div>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="email" placeholder="Email" aria-label="Recipient’s username" aria-describedby="basic-addon2">
+        </div>
+
+        <div class="input-group mb-3">
+            <input type="number" class="form-control" placeholder="Telefone" aria-label="Recipient’s username" aria-describedby="basic-addon2">
         </div>
 
         <div class="mb-3">
@@ -43,17 +49,48 @@
             <span class="input-group-text">.00</span>
         </div>
 
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-            <span class="input-group-text">@</span>
-            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-        </div>
-
         <div class="input-group">
-            <span class="input-group-text">With textarea</span>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <span class="input-group-text">Envie uma mensagem (opcional)</span>
+            <textarea class="form-control" placeholder="Mensagem" aria-label="With textarea"></textarea>
         </div>
     </main>
+
+    <button id="botao" class="botaoform">Enviar Formulário</button>
+
+<script>
+            document.getElementById('botao').onclick = function() {
+                var nome = document.getElementById('nome').value;
+                var sobrenome = document.getElementById('sobrenome').value;
+                var email = document.getElementById('email').value;
+                var telefone = document.getElementById('telefone').value;
+
+                let emailvalidacao = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+                if (nome == "" && email == "" && telefone == "") {
+                    alert("Por favor, preencha todos os campos.")
+                }else{
+                    if (nome == "") {
+            alert("Informe o nome completo");
+        } else if (email == "") {
+            alert("Informe o e-mail");
+        } else if (!emailvalidacao.test(email)) {
+            alert("Informe um email válido");
+        } else if (telefone == "") {
+            alert("Informe o telefone");
+        } else {
+            alert("Formulário enviado com sucesso!");
+        }
+    }
+
+                if(nome != "" && sobrenome != "" && email != "" && telefone != "" && emailvalidacao.test(email)) {
+                    alert("Formulário enviado com sucesso!");
+                }
+            }
+        </script>
+
+
+
+
     <?php
     include 'footer.php';
     ?>

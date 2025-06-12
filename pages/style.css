@@ -72,10 +72,13 @@ footer {
     font-family: "Playfair Display", serif;
     font-size: 20px;
 }
-
-.form {
+.forml{
+    .form {
     background-color: rgb(238, 202, 255);
+
 }
+}
+
 
 
 
