@@ -42,11 +42,12 @@
             <div>
                 <img src="../img/img1.png">
             </div>
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam debitis nemo, quaerat rerum, impedit assumenda culpa blanditiis temporibus minima eius necessitatibus officia natus ratione veritatis similique itaque saepe deleniti aliquid.<br>
+            <div><br>
+                Bem vinda ao meu espaço!
                 <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro, fuga beatae impedit perspiciatis voluptatibus labore architecto dignissimos possimus, dolorum, quo voluptatem incidunt nemo quae officiis illo dicta voluptates ab.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro, fuga beatae impedit perspiciatis voluptatibus labore architecto dignissimos possimus, dolorum, quo voluptatem incidunt nemo quae officiis illo dicta voluptates ab.
+                Meu nome é Laura, tenho 18 anos e sou apaixonada por realçar a beleza natural das pessoas. Criei esse espaço para apresentar meu trabalho como designer de sobrancelhas — feito de forma artesanal, com cuidado e um olhar apurado para os detalhes.
+                <br><br>
+                Mais do que estética, acredito que uma sobrancelha bem feita é capaz de transformar a forma como a gente se vê. Um olhar harmonioso, bem cuidado, para te trazer confiança e autoestima, além de revelar o melhor de cada pessoa.
             </div>
         </div>
     </section>
