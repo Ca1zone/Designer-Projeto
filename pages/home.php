@@ -19,23 +19,14 @@
     <?php
     include 'nav.php';
     ?>
-    <main>
+    <main class="man">
         <div class="mainft">
-            <img src="../img/ftmain.png">
+            <img src="../img/is.png">
         </div>
-
+        |<div class="mainbtn">
+            <img src="../img/maainbtn.png">
+        </div>
     </main>
-
-
-    <section class="slogan">
-        <img src="../img/slogan1.png">
-    </section>
-
-    <section class="container">
-        <button class="consulta">
-            Agendar Consulta
-        </button>
-    </section>
 
     <section class="sobreall">
         <div class="sobre">

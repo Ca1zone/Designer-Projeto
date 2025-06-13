@@ -13,23 +13,34 @@ body {
     background-color: var(--maincolor);
 }
 
-.mainft {
-    width: 100%;
-    font-family: "Playfair Display", serif;
-
-    img {
+.man {
+    .mainft {
         width: 100%;
-        box-sizing: border-box;
+        font-family: "Playfair Display", serif;
+
+        img {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+    .mainbtn {
+        position: relative;
+        left: 120px;
+        bottom: 400px;
+        color: var(--secondcolor);
+
+        img{
+            padding: 30px;
+            width: 20%;
+            background-color: var(--thircolor);
+            border-radius: 40px;
+        }
+        img:hover {
+            background-color: #160d18;
+        }
     }
 }
 
-.consulta {
-    color: #ffffff;
-    background-color: var(--thircolor);
-    margin-top: 100px;
-    padding: 20px;
-    border-radius: 40px;
-}
 
 .sobreall {
     padding-top: 100px;
@@ -72,12 +83,6 @@ footer {
     font-family: "Playfair Display", serif;
     font-size: 20px;
 }
-.forml{
-    .form {
-    background-color: rgb(238, 202, 255);
-
-}
-}
 
 
 
@@ -107,7 +112,12 @@ footer {
 .slogan {
     padding-top: 70px;
     text-align: center;
+
     img {
         width: 90%;
     }
+}
+
+.form {
+    background-color: rgb(252, 236, 255)
 }
