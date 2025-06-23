@@ -15,7 +15,7 @@
   </style>
 </head>
 
-<body>
+<body class="bg">
   <?php
   include 'nav.php';
   ?>
@@ -27,12 +27,12 @@
       <img src="../img/imgresultados/resultado1.jpeg" style="width: 45%;">
     </div>
   </section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <section>
     <div id="carouselExampleIndicators" class="carousel slide container" style="width: 50%;">
       <div class="carousel-indicators">
@@ -75,13 +75,48 @@
   <br>
   <br>
 
-  <h1 class="bdyr">Avaliações</h1>
+  <h1 class="bdyr" style="padding-bottom: 50px; padding-top: 50px">Avaliações</h1>
 
-  <br>
-  <br>
-  <br>
-  <br>
-
+  <section class="avaliacoes">
+    <div class="avals">
+      <div class="aval">
+        <div class="topaval">
+          <img src="../img/imguser.jpg">
+          Juaum da Silva
+        </div>
+        <div class="txtaval">
+          esse extremo interesse me apetece.
+        </div>
+        <div class="bottomaval text-end">
+          14/04/2025
+        </div>
+      </div>
+      <div class="aval">
+        <div class="topaval">
+          <img src="../img/imguser.jpg">
+          Juaum Silveira
+        </div>
+        <div class="txtaval">
+          achei deveras interessante.
+        </div>
+        <div class="bottomaval text-end">
+          05/01/2025
+        </div>
+      </div>
+      <div class="aval">
+        <div class="topaval">
+          <img src="../img/imguser.jpg">
+          Juaum Silvano
+        </div>
+        <div class="txtaval">
+          achei demasiado interessante.
+        </div>
+        <div class="bottomaval text-end">
+          26/04/2024
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   <?php

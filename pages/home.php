@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,15 +32,25 @@
     </main>
 
     <section class="sobreall">
-        <div class="sobre">
-                <img src="../img/img1.png">
-
-            <div><br>
-                Bem vinda ao meu espaço!
-                <br>
-                Meu nome é Laura, tenho 18 anos e sou apaixonada por realçar a beleza natural das pessoas. Criei esse espaço para apresentar meu trabalho como designer de sobrancelhas — feito de forma artesanal, com cuidado e um olhar apurado para os detalhes.
-                <br><br>
-                Mais do que estética, acredito que uma sobrancelha bem feita é capaz de transformar a forma como a gente se vê. Um olhar harmonioso, bem cuidado, para te trazer confiança e autoestima, além de revelar o melhor de cada pessoa.
+        <div class="sobre container">
+            <div class="row row-col-2">
+                <div class="col-12 col-md-7">
+                    <img src="../img/img1.png">
+                </div>
+                <div>
+                    <br>
+                    <div class="col-12 col-md-5">
+                        <p class="text-start">
+                            Bem vinda ao meu espaço!
+                        </p>
+                        <br>
+                        <p class="text-end">
+                            Meu nome é Laura, tenho 18 anos e sou apaixonada por realçar a beleza natural das pessoas. Criei esse espaço para apresentar meu trabalho como designer de sobrancelhas — feito de forma artesanal, com cuidado e um olhar apurado para os detalhes.
+                            <br><br>
+                            Mais do que estética, acredito que uma sobrancelha bem feita é capaz de transformar a forma como a gente se vê. Um olhar harmonioso, bem cuidado, para te trazer confiança e autoestima, além de revelar o melhor de cada pessoa.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -43,7 +43,7 @@ body {
         box-shadow: 0 0 10px black;
         font-family: "Playfair Display", serif;
 
-        .plmds {
+        .pl {
             position: relative;
             top: 30px;
             font-size: 20px;
@@ -58,12 +58,9 @@ body {
 
 
 .sobreall {
-    text-align: center;
-    justify-content: center;
 
     .sobre {
         width: 80%;
-        align-items: center;
         padding-top: 50px;
         padding-bottom: 20px;
         display: flex;
@@ -142,7 +139,7 @@ footer {
 .h1r {
     text-align: center;
     font-family: "Playfair Display", serif;
-    color:  rgb(94, 8, 105);
+    color: rgb(94, 8, 105);
     background-color: #fbe9ff;
     padding-bottom: 20px;
     margin: 0;
@@ -168,6 +165,51 @@ footer {
 
 .bdyr {
     text-align: center;
-    color:  rgb(94, 8, 105);
+    color: rgb(94, 8, 105);
     font-family: "Playfair Display", serif;
+    background-color: #fbe9ff;
+    margin: 0;
+}
+
+.bg {
+    background-image: url(../img/resultadofundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.avals {
+    font-family: "Playfair Display", serif;
+    background-color: white;
+    display: flex;
+    .aval {
+        transition-duration: 0.5s;
+        padding: 30px;
+        border-radius: 20px;
+        margin: 30px;
+        background-color: rgb(246, 225, 252);
+        justify-content: center;
+        .topaval {
+            display: flex;
+            justify-content: space-between;
+            img {
+                width: 20%;
+                border-radius: 50px;
+            }
+        }
+        .txtaval {
+            padding-top: 50px;
+        }
+        .bottomaval {
+            padding-top: 40px;
+
+        }
+    }
+
+    .aval:hover{
+        transition-duration: 0.5s;
+        transform: scale(1.1);
+    }
 }
