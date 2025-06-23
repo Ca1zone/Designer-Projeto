@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,13 +18,15 @@
     <?php
     include 'nav.php';
     ?>
+
     <main class="man">
         <div class="mainft">
             <img src="../img/is.png">
         </div>
-        |<div class="mainbtn">
-            <img src="../img/maainbtn.png">
+        <div class="mainbtn">
+            <div class="plmds"><strong>Agende seu Horário<i class="fa-solid fa-bell-concierge"></i></strong></div>
         </div>
+        
     </main>
 
     <section class="sobreall">
