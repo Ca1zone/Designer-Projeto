@@ -23,17 +23,17 @@
         <div class="mainft">
             <img src="../img/is.png">
         </div>
-        <div class="mainbtn">
-            <div class="plmds"><strong>Agende seu Horário<i class="fa-solid fa-bell-concierge"></i></strong></div>
-        </div>
-        
+        <button href="contato" class="mainbtn">
+            <div class="pl">
+                <strong>Agende seu Horário<i class="fa-solid fa-bell-concierge"></i></strong>
+            </div>
+        </button>
     </main>
 
     <section class="sobreall">
         <div class="sobre">
-            <div>
                 <img src="../img/img1.png">
-            </div>
+
             <div><br>
                 Bem vinda ao meu espaço!
                 <br>
@@ -47,49 +47,6 @@
     <section class="slogan">
         <img src="../img/slogan.png">
     </section>
-
-    <section class="ex">
-        <div class="ex1">
-            <div class="und">
-                <img src="../img/img1.png">
-                <p>Antes</p>
-            </div>
-            <div class="und">
-                <img src="../img/img1.png">
-                <p>Depois</p>
-            </div>
-            <div class="und">
-                <img src="../img/img1.png">
-                <p>Antes</p>
-            </div>
-            <div class="und">
-                <img src="../img/img1.png">
-                <p>Depois</p>
-            </div>
-
-        </div>
-        <div class="ex1">
-            <div class="und">
-                <img src="../img/img1.png">
-                <p>Antes</p>
-            </div>
-            <div class="und">
-                <img src="../img/img1.png">
-                <p>Depois</p>
-            </div>
-            <div class="und">
-                <img src="../img/img1.png">
-                <p>Antes</p>
-            </div>
-            <div class="und">
-                <img src="../img/img1.png">
-                <p>Depois</p>
-            </div>
-
-        </div>
-    </section>
-
-
 
     <?php
     include 'footer.php';

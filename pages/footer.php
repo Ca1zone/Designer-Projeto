@@ -1,7 +1,7 @@
 <footer>
     <section>
         <div>
-            <a href="https://www.instagram.com/buffalosburgers.cm/">
+            <a href="https://www.instagram.com/fran_grisf/">
                 <i class="fa-brands fa-instagram fa-2x icon-hover"></i>
             </a>
         </div>

@@ -24,6 +24,7 @@ body {
     .mainft {
         width: 100%;
         font-family: "Playfair Display", serif;
+
         img {
             width: 100%;
             box-sizing: border-box;
@@ -38,10 +39,10 @@ body {
         position: relative;
         bottom: 350px;
         left: 150px;
-        text-align: center;
         border-radius: 70px;
         box-shadow: 0 0 10px black;
         font-family: "Playfair Display", serif;
+
         .plmds {
             position: relative;
             top: 30px;
@@ -49,18 +50,25 @@ body {
         }
     }
 }
-.mainbtn:hover{
+
+.mainbtn:hover {
     color: rgb(252, 232, 251);
     background-color: #9d09bb;
 }
 
 
 .sobreall {
+    text-align: center;
+    justify-content: center;
+
     .sobre {
+        width: 80%;
+        align-items: center;
         padding-top: 50px;
-        padding-bottom: 20px;  
+        padding-bottom: 20px;
         display: flex;
         font-family: "Playfair Display", serif;
+
         img {
             width: 50%;
         }
@@ -87,7 +95,8 @@ footer {
     box-shadow: 0 0 30px var(--thircolor);
     font-family: "Playfair Display", serif;
     font-size: 20px;
-    .footerex{
+
+    .footerex {
         font-size: 15px;
     }
 }
@@ -127,10 +136,10 @@ footer {
 }
 
 .form {
-    background-color: rgb(252, 236, 255)
+    background-color: rgb(252, 236, 255);
 }
 
-.h1r{
+.h1r {
     text-align: center;
     font-family: "Playfair Display", serif;
     color: var(--thircolor);
@@ -139,13 +148,14 @@ footer {
     margin: 0;
 }
 
-.navr{
+.navr {
     display: flex;
-   justify-content: center;
-   padding-top: 20px;
-   padding-bottom: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #fbe9ff;
-    img{
+
+    img {
         width: 49%;
         border: 5px solid rgb(0, 0, 0);
     }
@@ -155,10 +165,8 @@ footer {
     text-align: center;
 }
 
-.carosel{
-    border: 3px solid black;
+.bdyr {
     text-align: center;
-    justify-content: center;
-    align-items: center;
-
+    color: var(--thircolor);
+    font-family: "Playfair Display", serif;
 }
