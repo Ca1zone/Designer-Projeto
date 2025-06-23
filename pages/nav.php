@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-family: 'Playfair Display', serif;">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="home.php">Home</a>
                 </li>
@@ -15,11 +15,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="avaliacao.php">Avaliações
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="fotos.php">Galeria de Fotos
+                    <a class="nav-link" href="fotos.php">Galeria
                     </a>
                 </li>
                 <li class="nav-item">

@@ -34,7 +34,7 @@
 <br>
 <br>
   <section>
-    <div id="carouselExampleIndicators" class="carousel slide container" style="width: 40%;">
+    <div id="carouselExampleIndicators" class="carousel slide container" style="width: 50%;">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -42,7 +42,7 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
-      <div class="carousel-inner" style=" border: 3px solid #ad18ca; border-radius: 10px">
+      <div class="carousel-inner" style=" border: 8px solid rgb(94, 8, 105); border-radius: 20px">
         <div class="carousel-item active">
           <img src="../img/imgresultados/um.jpg" class="d-block w-100" alt="img-sobrancelha">
         </div>
