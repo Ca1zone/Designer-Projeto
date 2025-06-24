@@ -23,8 +23,8 @@
   <h1 class="h1r">Resultados</h1>
   <section class="navr">
     <div>
-      <img src="../img/imgresultados/teste1.jpeg" style="width: 45%;">
       <img src="../img/imgresultados/resultado1.jpeg" style="width: 45%;">
+      <img src="../img/imgresultados/teste1.jpeg" style="width: 45%;">
     </div>
   </section>
   <br>

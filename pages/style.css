@@ -58,13 +58,10 @@ body {
 
 
 .sobreall {
+    font-family: "Playfair Display", serif;
 
     .sobre {
-        width: 80%;
-        padding-top: 50px;
-        padding-bottom: 20px;
         display: flex;
-        font-family: "Playfair Display", serif;
 
         img {
             width: 50%;
@@ -184,6 +181,7 @@ footer {
     font-family: "Playfair Display", serif;
     background-color: white;
     display: flex;
+
     .aval {
         transition-duration: 0.5s;
         padding: 30px;
@@ -191,25 +189,35 @@ footer {
         margin: 30px;
         background-color: rgb(246, 225, 252);
         justify-content: center;
+
         .topaval {
             display: flex;
             justify-content: space-between;
+
             img {
                 width: 20%;
                 border-radius: 50px;
             }
         }
+
         .txtaval {
             padding-top: 50px;
         }
+
         .bottomaval {
             padding-top: 40px;
 
         }
     }
 
-    .aval:hover{
+    .aval:hover {
         transition-duration: 0.5s;
         transform: scale(1.1);
+    }
+}
+
+.foot {
+    a {
+        text-decoration: none;
     }
 }
