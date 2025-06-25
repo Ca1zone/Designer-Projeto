@@ -14,12 +14,6 @@ body {
     background-color: var(--maincolor);
 }
 
-.tltnav {
-    img {
-        width: 20%;
-    }
-}
-
 
 .man {
     .mainft {
@@ -108,6 +102,8 @@ footer {
 
 .form {
     background-color: rgb(252, 236, 255);
+    padding: 0;
+    border: 0;
 }
 
 .h1r {

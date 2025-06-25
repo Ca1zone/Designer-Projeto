@@ -109,7 +109,7 @@
           Anna Clara G.
         </div>
         <div class="txtaval">
-           Profissional detalhista e cuidadosa. Saí me sentindo linda e renovada❤️
+          Profissional detalhista e cuidadosa. Saí me sentindo linda e renovada❤️
         </div>
         <div class="bottomaval text-end" style="padding-top: 65px;">
           - 26/04/2025
