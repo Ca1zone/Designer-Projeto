@@ -15,10 +15,6 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="fotos.php">Galeria
-                    </a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="contato.php">Contato
                     </a>
                 </li>

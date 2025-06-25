@@ -24,37 +24,40 @@
         <div class="mainft">
             <img src="../img/is.png">
         </div>
-        <button href="contato" class="mainbtn">
-            <div class="pl">
-                <strong>Agende seu Horário<i class="fa-solid fa-bell-concierge"></i></strong>
-            </div>
-        </button>
     </main>
 
     <section class="sobreall container">
         <div class="row sobre">
+            <div class="col">
+                <img src="../img/img1.png">
+            </div>
+            <div>
                 <div class="col">
-                    <img src="../img/img1.png">
+                    <p>
+                        Bem vinda ao meu espaço!
+                    </p>
+                    <br>
+                    <p>
+                        Meu nome é Laura, tenho 18 anos e sou apaixonada por realçar a beleza natural das pessoas. Criei esse espaço para apresentar meu trabalho como designer de sobrancelhas — feito de forma artesanal, com cuidado e um olhar apurado para os detalhes.
+                        <br><br>
+                        Mais do que estética, acredito que uma sobrancelha bem feita é capaz de transformar a forma como a gente se vê. Um olhar harmonioso, bem cuidado, para te trazer confiança e autoestima, além de revelar o melhor de cada pessoa.
+                    </p>
                 </div>
-                <div>
-                    <div class="col">
-                        <p>
-                            Bem vinda ao meu espaço!
-                        </p>
-                        <br>
-                        <p>
-                            Meu nome é Laura, tenho 18 anos e sou apaixonada por realçar a beleza natural das pessoas. Criei esse espaço para apresentar meu trabalho como designer de sobrancelhas — feito de forma artesanal, com cuidado e um olhar apurado para os detalhes.
-                            <br><br>
-                            Mais do que estética, acredito que uma sobrancelha bem feita é capaz de transformar a forma como a gente se vê. Um olhar harmonioso, bem cuidado, para te trazer confiança e autoestima, além de revelar o melhor de cada pessoa.
-                        </p>
-                    </div>
-                </div>
+            </div>
         </div>
     </section>
 
     <section class="slogan">
         <img src="../img/slogan.png">
     </section>
+    <br>
+    <div class="container">
+        <a href="contato.php" class="btn btn-primary btnagenda" style="padding: 20px;">Agendar Consulta</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <?php
     include 'footer.php';

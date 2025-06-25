@@ -81,38 +81,38 @@
     <div class="avals">
       <div class="aval">
         <div class="topaval">
-          <img src="../img/imguser.jpg">
-          Juaum da Silva
+          <img src="../img/pp4.jpg">
+          Eloá F. Martins
         </div>
         <div class="txtaval">
-          esse extremo interesse me apetece.
+          Trabalho maravilhoso, a Laura é um amor😍
         </div>
-        <div class="bottomaval text-end">
-          14/04/2025
+        <div class="bottomaval text-end" style="padding-top: 90px;">
+          - 14/06/2025
         </div>
       </div>
       <div class="aval">
         <div class="topaval">
-          <img src="../img/imguser.jpg">
-          Juaum Silveira
+          <img src="../img/pp5t.jpg">
+          Giovana N. Torres
         </div>
         <div class="txtaval">
-          achei deveras interessante.
+          Amei! A profissional entende exatamente o que você quer e faz tudo com muito capricho. Indico demais!
         </div>
         <div class="bottomaval text-end">
-          05/01/2025
+          - 05/03/2025
         </div>
       </div>
       <div class="aval">
         <div class="topaval">
-          <img src="../img/imguser.jpg">
-          Juaum Silvano
+          <img src="../img/pp1r.jpg">
+          Anna Clara G.
         </div>
         <div class="txtaval">
-          achei demasiado interessante.
+           Profissional detalhista e cuidadosa. Saí me sentindo linda e renovada❤️
         </div>
-        <div class="bottomaval text-end">
-          26/04/2024
+        <div class="bottomaval text-end" style="padding-top: 65px;">
+          - 26/04/2025
         </div>
       </div>
     </div>
